@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gameplay",
+    "title": "Правила игры",
+    "href": "/rules",
+    "description": "Основные правила игрового процесса"
+  },
+  {
+    "id": "social",
+    "title": "Правила общения",
+    "href": "/rules/social",
+    "description": "Правила поведения в чате и сообществе"
+  }
+]

@@ -1,0 +1,28 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+---
+
+<MainLayout title="Q-Verse — 404" , activePage="none">
+  <main class="page-main page-shell error-page">
+    <section class="page-card panel error-card">
+      <p class="page-eyebrow">Reality Fault</p>
+      <h1>404</h1>
+      <img
+        src="assets/poses/quoi404.webp"
+        alt="Страница не найдена"
+        class="error-visual"
+      />
+      <p class="error-title">Реальность не обнаружена</p>
+      <p class="error-text">
+        Запрошенный фрагмент мира не существует или был утрачен в процессе
+        искажения.
+      </p>
+
+      <div class="page-actions">
+        <a href="./">
+          <button class="btn primary">На главную</button>
+        </a>
+      </div>
+    </section>
+  </main>
+</MainLayout>

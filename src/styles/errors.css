@@ -1,0 +1,24 @@
+.error-card {
+    max-width: 480px;
+}
+
+.error-card h1 {
+    font-size: 96px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.error-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.error-visual {
+    width: min(100%, 300px);
+    margin: 0 auto 16px;
+    filter: drop-shadow(0 14px 30px rgba(0, 0, 0, 0.35));
+}
+
+.error-text {
+    opacity: 0.85;
+}

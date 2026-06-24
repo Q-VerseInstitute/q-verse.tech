@@ -1,0 +1,140 @@
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-title">Q-Verse</div>
+      <div class="footer-desc">
+        Приватный Minecraft SMP без вайпов,<br />
+        ориентированный на долгосрочную игру и взаимодействие.
+      </div>
+    </div>
+
+    <nav class="footer-links">
+      <a href="/">Главная</a>
+      <a href="/rules">Правила</a>
+      <a href="/wiki">Вики</a>
+      <a href="https://github.com/QVerseInstitute/Q-Verse-Modpack/releases">
+        Скачать сборку
+      </a>
+    </nav>
+
+    <nav class="links">
+      <a
+        href="https://discord.gg/GWVaEAGXRu"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="/assets/discord.svg" alt="Discord" class="icon" />
+      </a>
+    </nav>
+
+    <div class="footer-meta">
+      <div>Minecraft Java Edition · Fabric 1.21.11</div>
+      <div class="footer-copy">
+        © 2026 Q-Verse<br />
+        Made with <span class="red-glowing">❤️</span> by
+        <a href="https://github.com/Qu0i" class="profile-link cyan-glowing">
+          QuØi(¿!)™
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-disclaimer">
+      Not an official Minecraft product. Not approved by or associated with
+      Mojang Synergies AB or Microsoft Corporation.
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: 120px;
+    padding: 60px 20px 30px;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.3)
+    );
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 32px;
+  }
+
+  .footer-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #e8fffb;
+  }
+
+  .footer-desc {
+    margin-top: 8px;
+    max-width: 420px;
+    font-size: 14px;
+    color: rgba(232, 255, 251, 0.7);
+    line-height: 1.5;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .footer-links a {
+    color: rgba(232, 255, 251, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.15s ease;
+  }
+
+  .footer-links a:hover,
+  .profile-link:hover {
+    color: var(--color-accent);
+    text-shadow:
+      0 0 6px rgba(63, 192, 198, 0.6),
+      0 0 12px rgba(63, 192, 198, 0.4),
+      0 0 24px rgba(63, 192, 198, 0.2);
+    filter: drop-shadow(0 0 8px rgba(63, 192, 198, 0.5));
+  }
+
+  .footer-meta {
+    font-size: 13px;
+    color: rgba(232, 255, 251, 0.55);
+  }
+
+  .footer-copy {
+    margin-top: 6px;
+  }
+
+  .footer-disclaimer {
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: var(--color-accent);
+    text-shadow:
+      0 0 6px rgba(63, 192, 198, 0.6),
+      0 0 12px rgba(63, 192, 198, 0.4),
+      0 0 24px rgba(63, 192, 198, 0.2);
+    filter: drop-shadow(0 0 8px rgba(63, 192, 198, 0.5));
+  }
+
+  .profile-link {
+    color: #e8fffb;
+    text-decoration: none;
+  }
+
+  @media (max-width: 640px) {
+    .footer {
+      margin-top: 96px;
+      padding-top: 48px;
+    }
+
+    .footer-inner {
+      gap: 24px;
+    }
+  }
+</style>
